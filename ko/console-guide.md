@@ -19,7 +19,6 @@ EasyCache를 사용하려면 가장 먼저 복제 그룹을 생성해야 합니�
     - 서비스 포트: Redis의 포트 번호를 입력합니다.
       - 10000~12000 사이로 설정할 수 있습니다.
     - 버전: 생성할 Redis 버전을 선택합니다.
-      - 2020년 6월 현재 5.0.8만 지원합니다.
     - 인스턴스 타입: 복제 그룹의 사양을 선택합니다.
     - Max Memory: 최대 메모리를 조정해 동기화나 백업 실행 시 메모리 부족을 예방할 수 있습니다.
       - Redis 서버에 사용할 최대 메모리의 용량을 변경할 수 있습니다.
@@ -452,6 +451,8 @@ EasyCache는 Redis 운영 및 사용에 필요한 모니터링 항목을 1분 �
   - active-defrag-cycle-min(Redis 5.0 추가)
   - active-defrag-cycle-max(Redis 5.0 추가)
   - active-defrag-max-scan-fields(Redis 5.0 추가)
+  - active-expire-effort(Redis 6.0 추가)
+  - lazyfree-lazy-user-del(Redis 6.0 추가)
 
 ## 알람
 
